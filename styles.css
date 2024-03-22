@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000; /* Dark blue background */
+    color: white;
+    text-align: center;
+    padding: 50px;
+  }
+  .stripe-pattern h2 {
+    background: repeating-linear-gradient(
+      90deg,
+      #000066,
+      #000000 100px,
+      #000099 100px,
+      #000099 200px
+    );
+  }
+  .contact-info {
+    margin-top: 20px;
+  }
+h2{
+    font-size: 100px;
+}
+h1{
+    
+}
