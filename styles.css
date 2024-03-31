@@ -32,8 +32,12 @@ body, html {
   background: repeating-linear-gradient(90deg, #000066, #000000 100px, #000099 100px, #000099 200px);
   color: white;
   padding: 50px;
-  text-align: right;
+  text-align: center; /* Align content in the center horizontally */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Align content in the center vertically */
 }
+
 h2{
-  font-size: 100px;
+  font-size: 185px;
 }
